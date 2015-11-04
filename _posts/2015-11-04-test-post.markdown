@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "My first test post!"
+date:   2015-11-04 11:19:00
+categories: jekyll test
+---
+This is my first post. It's a simple test to get the hang of it.
+
+Now I'm trying to get a working link to a random webpage. Lets try [Google][google].
+
+[google]:      http://google.com
+
