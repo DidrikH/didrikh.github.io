@@ -2,6 +2,8 @@
 layout: post
 title:  "My first test post!"
 date:   2015-11-04 11:19:00
+published: true
+comments: true
 categories: jekyll test
 ---
 This is my first post. It's a simple test to get the hang of it.

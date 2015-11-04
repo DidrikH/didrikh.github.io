@@ -1,6 +1,6 @@
 # Site settings
-title: My test title
-email: test-email@domain.com
+title: Examination 1 (1dv022)
+email: dh222gu@student.lnu.se
 description: > # this means to ignore newlines until "baseurl:"
  Apparently, you have to reboot (ctrl -c + npm run watch) to update any changes made in this (config.yml) settings file.
 baseurl: "" # the subpath of your site, e.g. /blog/
