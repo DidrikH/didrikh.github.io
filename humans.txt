@@ -1,11 +1,11 @@
-/* TEAM */
-    Creator:Didrik Hirschfeldt
-    Contact: hirschfeldt [at] hotmail.se
-    Github: DidrikH
-    From:Stockholm, Sweden
-
-/* SITE */
-    Last update:2015/11/04
-    Language: Swedish
-    Doctype:HTML5
-    IDE: Webstorm 10
+  /* TEAM */
+      Creator:Didrik Hirschfeldt
+      Contact: hirschfeldt [at] hotmail.se
+      Github: DidrikH
+      From:Stockholm, Sweden
+  
+  /* SITE */
+      Last update:2015/11/04
+      Language: Swedish
+      Doctype:HTML5
+      IDE: Webstorm 10
