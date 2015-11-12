@@ -10,6 +10,6 @@ Bor: Halmstad
 Utbildning: Civilekonomexamen  
 Intressen: Resa och må bra
 
-Övrigt: Född och uppvuxen i Stockholm. Flyttade till Halmstad för 4 år sen när jag började plugga på Högskolan i Halmstad. 
+Övrigt: Född och uppvuxen i Stockholm. Flyttade till Halmstad för 4 år sedan när jag började plugga på Högskolan i Halmstad. 
 
 

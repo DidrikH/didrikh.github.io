@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Inlägg
+title: Senaste inlägg
 permalink: /posts/
 ---
 
  <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in site.posts limit:5 %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 

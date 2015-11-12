@@ -1,8 +1,8 @@
 # Site settings
-title: Examination 1 (1dv022)
+title: Klientbaserad webbprogrammering
 email: dh222gu@student.lnu.se
 description: > # this means to ignore newlines until "baseurl:"
- Apparently, you have to reboot (ctrl -c + npm run watch) to update any changes made in this (config.yml) settings file.
+ Det här sidan är gjord för att presentera examination 1
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 github_username:  DidrikH
