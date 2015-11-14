@@ -1,4 +1,5 @@
 ---
+type: blog
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2015-11-03 12:47:02

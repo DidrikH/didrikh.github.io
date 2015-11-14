@@ -5,18 +5,14 @@
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{{ site.description }}">
-
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-
     <meta content="{{ site.title }}" property="og:site_name">  
     {% if page.title %}
      <meta content="{{ page.title }}" property="og:title">
      {% else %}
      <meta content="{{ site.title }}" property="og:title"> 
     {% endif %}
-     {% if page.title %} 
-    <meta content="article" property="og:type"> 
+     {% if page.type %} 
+    <meta content="blog" property="og:type"> 
     {% else %}
      <meta content="website" property="og:type"> 
     {% endif %} 
@@ -32,7 +28,11 @@
     {% endif %}
      {% if page.categories %} 
     {% for category in page.categories limit:1 %}
-     <meta content="{{ category }}" property="article:section"> 
+     <meta content="{{ page.categories }}" property="article:section"> 
     {% endfor %} 
     {% endif %}
+
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
 </head>

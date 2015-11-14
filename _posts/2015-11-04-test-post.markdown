@@ -1,4 +1,5 @@
 ---
+type: blog
 layout: post
 title:  "Mitt första inlägg!"
 date:   2015-11-04 11:19:00
