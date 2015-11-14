@@ -2,7 +2,7 @@
 title: Klientbaserad webbprogrammering
 email: dh222gu@student.lnu.se
 description: > # this means to ignore newlines until "baseurl:"
- Det här sidan är gjord för att presentera examination 1
+ Det här sidan är gjord för att presentera examinationsuppgifter.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 github_username:  DidrikH
