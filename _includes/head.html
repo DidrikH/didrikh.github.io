@@ -1,38 +1,32 @@
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta name="viewport" content="width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title}}{% endif %}</title>
     <meta name="description" content="{{ site.description }}">
-    <meta content="{{ site.title }}" property="og:site_name">  
     {% if page.title %}
-     <meta content="{{ page.title }}" property="og:title">
-     {% else %}
-     <meta content="{{ site.title }}" property="og:title"> 
-    {% endif %}
-     {% if page.type %} 
-    <meta content="blog" property="og:type"> 
+    <meta content="{{ page.title }}" property="og:title">
     {% else %}
-     <meta content="website" property="og:type"> 
-    {% endif %} 
-    {% if page.url %}
-     <meta content="{{ site.url }}{{ page.url }}" property="og:url"> 
-    {% endif %} 
+    <meta content="{{ site.title }}" property="og:title">
+    {% endif %}
+    {% if page.type %}
+    <meta content="blog" property="og:type">
+    {% else %}
+    <meta content="website" property="og:type">
+    {% endif %}
     {% if page.image %}
-     <meta content="/img/{{ page.image }}" property="og:image">
-     {% else %} 
-    <meta content="/img/logga.png" property="og:image"> 
-    <meta property="og:image:width" content="300" />
-    <meta property="og:image:height" content="200" />
+    <meta content="/img/{{ page.image }}" property="og:image">
+    {% else %}
+    <meta content="/img/logg.png" property="og:image">
+    <meta content="300" property="og:image:width">
+    <meta content="200" property="og:image:height">
     {% endif %}
-     {% if page.categories %} 
+    {% if page.categories %}
     {% for category in page.categories limit:1 %}
-     <meta content="{{ page.categories }}" property="article:section"> 
-    {% endfor %} 
+    <meta content="{{ page.categories }}" property="article:section">
+    {% endfor %}
     {% endif %}
-
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepren: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
 </head>
